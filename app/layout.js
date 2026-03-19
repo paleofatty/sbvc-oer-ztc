@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'SBVC OER/ZTC Initiative',
-  description: 'San Bernardino Valley College — Zero Textbook Cost / Open Educational Resources Initiative Documentation',
+  description: 'San Bernardino Valley College — Zero Textbook Cost / Open Educational Resources Initiative',
 };
 
 export default function RootLayout({ children }) {
@@ -23,8 +23,10 @@ export default function RootLayout({ children }) {
               <Link href="/">Overview</Link>
               <Link href="/momentum">Momentum</Link>
               <Link href="/framework">Framework</Link>
-              <Link href="/timeline">Timeline</Link>
+              <Link href="/data-systems">Data Systems</Link>
               <Link href="/student-impact">Student Impact</Link>
+              <Link href="/lessons">Lessons Learned</Link>
+              <Link href="/timeline">Timeline</Link>
             </nav>
           </div>
         </header>
