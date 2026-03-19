@@ -5,28 +5,28 @@ export default function Lessons() {
         <div className="page-container">
           <div className="badge">Key Findings</div>
           <h1>Lessons Learned &amp; Recommendations</h1>
-          <p className="subtitle">What worked, what didn't, and what the next team — or this team in its next form — needs to know.</p>
+          <p className="subtitle">What we learned, what we recommend, and what the next team — or this team in its next form — needs to know.</p>
         </div>
       </div>
       <div className="page-container">
         <section className="section">
-          <h2>Execution Patterns</h2>
+          <h2>What the Team Discovered About Execution</h2>
           <div className="findings-grid">
             <div className="finding-card">
               <h4>Strong Discussion, Weak Actionization</h4>
-              <p>The most persistent pattern: rich strategic analysis in meetings that didn't convert to completed action items. Not a motivation problem — a structural one. Volunteer task forces without formal authority, dedicated staff, or built-in accountability mechanisms will reproduce this pattern. Design for it.</p>
+              <p>The most persistent pattern: rich strategic analysis that outpaced the team's structural capacity to convert insights into completed actions. Not a motivation or commitment problem — a structural one. Volunteer task forces without formal authority, dedicated staff, or built-in accountability mechanisms will reproduce this pattern. Design for it.</p>
             </div>
             <div className="finding-card">
-              <h4>Knowledge Concentration Risk</h4>
-              <p>Deep expertise and institutional knowledge were concentrated in one team member. When that person was no longer available, operational capacity and institutional memory were significantly impacted. Future initiatives must build redundancy into roles and document continuously.</p>
+              <h4>Institutional Knowledge Continuity</h4>
+              <p>The team developed deep expertise — a testament to the commitment of its members. That depth also revealed an institutional vulnerability: when key contributors are unavailable, operational capacity and institutional memory are affected. This reinforces the importance of continuous documentation and shared knowledge across team members — a practice the team is now modeling through this very documentation effort.</p>
             </div>
             <div className="finding-card">
               <h4>Adoption Is Human, Not Technical</h4>
-              <p>Faculty don't resist OER because they disagree with the concept. They resist because switching costs are real, incentives are unclear, and social dynamics within departments reinforce the status quo. The technical infrastructure (Canvas shells, OER repositories) matters — but only after the human problem is addressed.</p>
+              <p>Faculty broadly support the principle of affordable materials. Where adoption slows, it's because switching costs are real, incentives are unclear, and social dynamics within departments reinforce the status quo. The technical infrastructure (Canvas shells, OER repositories) matters — but only after the human problem is addressed.</p>
             </div>
             <div className="finding-card">
               <h4>Embed, Don't Add</h4>
-              <p>Every time the team created a separate process (standalone surveys, additional forms, new reporting requirements), participation was low. Every time they embedded tracking into an existing workflow (CourseDog scheduling, curriculum review), engagement improved. The lesson: integration beats invention.</p>
+              <p>Every time the team created a separate process (standalone surveys, additional forms, new reporting requirements), uptake was limited. Every time they embedded tracking into an existing workflow (CourseDog scheduling, curriculum review), engagement improved. The lesson: integration beats invention.</p>
             </div>
           </div>
         </section>

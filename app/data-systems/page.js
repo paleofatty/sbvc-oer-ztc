@@ -38,7 +38,7 @@ export default function DataSystems() {
           <h3>"No Textbook" ≠ Zero Textbook Cost</h3>
           <p>Many courses flagged as having "no textbook" in the bookstore system aren't actually ZTC. They may use instructor-created materials, required software, lab equipment, or supplies that carry costs. The Follett "free" button sends students to a page saying no materials are needed — when the instructor has actually assigned an OER text or other resources.</p>
           <h3>ZTC Courses That Don't Report</h3>
-          <p>Conversely, many faculty using OER materials don't report it to the bookstore, the scheduling system, or anyone. Multiple team members acknowledged being in this category themselves. The result: courses that are ZTC in practice are invisible in the data — and students may be charged Savings Plus fees for materials they don't need.</p>
+          <p>Conversely, many faculty using OER materials have no streamlined mechanism to report it. The team discovered this firsthand — several members realized their own courses were unreported. The result: courses that are ZTC in practice are invisible in the data — and students may be charged Savings Plus fees for materials they don't need.</p>
           <div className="callout red">
             <p><strong>The direct student harm:</strong> When a ZTC course isn't flagged in the schedule, students enrolled in that course are included in the Savings Plus calculation and charged accordingly. They pay for materials that should be free — because the system doesn't know the course is ZTC. The data gap is not an administrative inconvenience; it is a direct financial burden on students.</p>
           </div>
@@ -46,7 +46,7 @@ export default function DataSystems() {
 
         <section className="section">
           <h2>The Bookstore Contract Tension</h2>
-          <p>Follett operates SBVC's bookstore under an outsourced contract. The team identified a structural tension: the bookstore vendor may have contractual minimum-spend provisions that create a financial disincentive for aggressive OER promotion. While the exact contract terms haven't been fully reviewed (the contract is in the board book archives), the team noted that Follett's engagement with OER data collection has been limited.</p>
+          <p>Follett operates SBVC's bookstore under an outsourced contract. The team identified a structural tension: the bookstore vendor may have contractual minimum-spend provisions that create a financial disincentive for aggressive OER promotion. While the exact contract terms haven't been fully reviewed (the contract is in the board book archives), the team noted that the team determined that building independent institutional tracking was the more sustainable approach.</p>
           <p>The strategic response: build OER tracking independent of Follett, within institutional systems (CourseDog → Colleague → Informer). This ensures the college owns its own data regardless of the bookstore relationship. The Book Saver program contract expires in approximately four years, creating a future window for renegotiation.</p>
         </section>
 

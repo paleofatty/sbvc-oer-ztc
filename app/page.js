@@ -45,7 +45,7 @@ export default function Home() {
           <h2>Navigate This Site</h2>
           <div className="findings-grid">
             <Link href="/momentum" style={{textDecoration:'none'}}><div className="finding-card" style={{cursor:'pointer'}}>
-              <h4>Momentum Map &rarr;</h4><p>What moved, what stalled, what shifted — an honest assessment of where the project stands.</p>
+              <h4>Momentum Map &rarr;</h4><p>What moved, what evolved, what shifted — an honest assessment of where the project stands.</p>
             </div></Link>
             <Link href="/framework" style={{textDecoration:'none'}}><div className="finding-card" style={{cursor:'pointer'}}>
               <h4>Three Pillars Framework &rarr;</h4><p>The advocacy strategy that reframed OER from optional innovation to required compliance.</p>
