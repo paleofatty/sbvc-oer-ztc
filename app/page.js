@@ -4,12 +4,15 @@ export default function Home() {
   return (
     <>
       <div className="page-hero">
-        <div className="page-container">
-          <div className="badge">LFM Academy II &middot; 2025–2026 &middot; Centennial Celebration</div>
-          <h1>Zero Textbook Cost &amp; Open Educational Resources Initiative</h1>
-          <p className="subtitle">
-            Removing financial barriers to instructional materials at San Bernardino Valley College — a systems change project documented through the Leading from the Middle Academy.
-          </p>
+        <div className="page-container" style={{display: 'flex', alignItems: 'center', gap: '40px', flexWrap: 'wrap'}}>
+          <img src="/centennial-logo.png" alt="SBVC Centennial 1926-2026" style={{width: '160px', height: '160px', flexShrink: 0}} />
+          <div>
+            <div className="badge">Centennial Celebration &middot; LFM Academy II &middot; 2025–2026</div>
+            <h1>Zero Textbook Cost &amp; Open Educational Resources Initiative</h1>
+            <p className="subtitle">
+              A Century of Student Access &amp; Equity — removing financial barriers to instructional materials at San Bernardino Valley College.
+            </p>
+          </div>
         </div>
       </div>
       <div className="page-container">
