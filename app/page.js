@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -45,14 +46,48 @@ export default function Home() {
         <section className="section">
           <h2>The Team</h2>
           <p>This work is carried out by the SBVC LFM Task Force — a cross-functional team bringing together instructional leadership, institutional research, library services, and faculty expertise.</p>
-          <div className="findings-grid">
-            <div className="finding-card">
-              <h4>Co-Leads</h4>
-              <p>Norma Durian and Davena Burns-Peters provide executive sponsorship and strategic direction, connecting the task force to institutional leadership and ensuring alignment with college-wide priorities.</p>
+          <div className="team-grid">
+            <div className="team-card">
+              <div className="team-role">Co-Lead</div>
+              <h4>Norma Durian</h4>
+              <p>Executive sponsorship and strategic direction</p>
             </div>
-            <div className="finding-card">
-              <h4>Task Force Members</h4>
-              <p>Wei-Chung Wang (Department Chair &amp; Economics Professor, OER Liaison), Christie Gabriel (Planning, Research &amp; Institutional Effectiveness), Celia Huston (Library), and Timothy Hosford (Library Technical Services).</p>
+            <div className="team-card">
+              <div className="team-role">Co-Lead</div>
+              <h4>Davena Burns-Peters</h4>
+              <p>Instructional leadership and college-wide alignment</p>
+            </div>
+            <div className="team-card">
+              <div className="team-role">OER Liaison</div>
+              <h4>Wei-Chung Wang</h4>
+              <p>Department Chair &amp; Economics Professor — systems strategy and site development</p>
+            </div>
+            <div className="team-card">
+              <div className="team-role">Institutional Research</div>
+              <h4>Christie Gabriel</h4>
+              <p>Planning, Research &amp; Institutional Effectiveness — data systems and reporting</p>
+            </div>
+            <div className="team-card">
+              <div className="team-role">Library</div>
+              <h4>Celia Huston</h4>
+              <p>OER cataloging, curriculum integration, and resource infrastructure</p>
+            </div>
+            <div className="team-card">
+              <div className="team-role">Library Technical Services</div>
+              <h4>Timothy Hosford</h4>
+              <p>OER access systems, course reserves, and accessibility research</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="section">
+          <div className="memorial">
+            <div className="memorial-photo">
+              <Image src="/thomas-berry.png" alt="Thomas W. Berry II" width={120} height={120} />
+            </div>
+            <div className="memorial-text">
+              <h3>In Memory of Thomas W. Berry II</h3>
+              <p>Thomas served as the task force's Curriculum Specialist and was the operational engine behind this initiative. He built the processes, tracked the details, and kept the work moving forward when it would have been easy to let it stall. Much of the infrastructure documented on this site — the CourseDog integration, the curriculum review pipeline, the data collection framework — started with Thomas doing the work before anyone asked him to. The team lost Thomas in early 2026. This site exists in part because of what he built, and in part to make sure that work continues.</p>
             </div>
           </div>
         </section>
