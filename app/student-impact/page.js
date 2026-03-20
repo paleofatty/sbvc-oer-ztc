@@ -16,7 +16,6 @@ export default function StudentImpact() {
             <div className="stat-card"><div className="stat-value">82.3%</div><div className="stat-label">Underrepresented Groups</div></div>
             <div className="stat-card"><div className="stat-value">49%</div><div className="stat-label">First-Generation</div></div>
             <div className="stat-card"><div className="stat-value">~52%</div><div className="stat-label">Hispanic/Latinx</div></div>
-            <div className="stat-card"><div className="stat-value">67%</div><div className="stat-label">Econ. Disadvantaged (Econ classes)</div></div>
           </div>
         </section>
         <section className="section">
