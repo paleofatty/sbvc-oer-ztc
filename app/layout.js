@@ -1,5 +1,6 @@
 import './globals.css';
 import Link from 'next/link';
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata = {
   title: 'SBVC OER/ZTC Initiative',
@@ -10,17 +11,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <a href="#main-content" className="skip-nav">Skip to main content</a>
-        <header className="site-header" role="banner">
+        <header className="site-header">
           <div className="site-header-inner">
-            <Link href="/" className="brand" aria-label="SBVC ZTC/OER Initiative - Home">
-              <img src="/centennial-logo.png" alt="SBVC Centennial 1926-2026" style={{width: '44px', height: '44px', borderRadius: '4px'}} />
+            <Link href="/" className="brand">
+              <div className="brand-icon">OER</div>
               <div>
-                <span className="brand-text">ZTC/OER Initiative</span>
-                <span className="brand-sub">A Century of Student Access &amp; Equity</span>
+                <span className="brand-text">SBVC ZTC/OER Initiative</span>
+                <span className="brand-sub">Leading from the Middle Academy II</span>
               </div>
             </Link>
-            <nav className="site-nav" aria-label="Main navigation">
+            <nav className="site-nav">
               <Link href="/">Overview</Link>
               <Link href="/momentum">Momentum</Link>
               <Link href="/framework">Framework</Link>
@@ -31,16 +31,14 @@ export default function RootLayout({ children }) {
             </nav>
           </div>
         </header>
-        <main id="main-content" role="main">
-          {children}
-        </main>
-        <footer className="site-footer" role="contentinfo">
+        {children}
+        <footer className="site-footer">
           <div className="page-container">
-            <img src="/centennial-logo.png" alt="" style={{width: '64px', height: '64px', marginBottom: '12px', opacity: 0.8}} aria-hidden="true" />
-            <p>San Bernardino Valley College &middot; <em>100 Years of Excellence</em> &middot; 1926&ndash;2026</p>
-            <p style={{marginTop: '4px', fontSize: '12px'}}>ZTC/OER Initiative &middot; Leading from the Middle Academy II &middot; A project of the Office of Instruction</p>
+            <p>San Bernardino Valley College &middot; ZTC/OER Initiative &middot; LFM Academy II &middot; 2025&ndash;2026</p>
+            <p style={{marginTop: '4px', fontSize: '12px'}}>This site documents the work of the SBVC LFM Task Force. For questions, contact the Office of Instruction.</p>
           </div>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
