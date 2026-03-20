@@ -12,7 +12,7 @@ export default function Framework() {
         <section className="section">
           <h2>The Strategic Insight</h2>
           <p>Early advocacy efforts positioned OER as an innovative approach to student access. Faculty response was polite interest but limited action. The breakthrough came when the team reframed the initiative through three existing institutional obligations — transforming the conversation from "should we?" to "how do we comply?"</p>
-          <p>Compliance is a language every department chair and administrator already speaks. By attaching the unfamiliar (OER adoption) to the familiar (regulatory compliance), the team applied what coalition-building research calls "Trojan Horse" framing — new ideas carried inside accepted structures. The framing was tested in stakeholder conversations, including a department chair liaison meeting where it was presented alongside the Follett bookstore vendor's own OER presentation. The institutional framing resonated where the innovation framing had not.</p>
+          <p>Compliance is a language every department chair and administrator already speaks. By attaching the unfamiliar (OER adoption) to the familiar (regulatory compliance), the team applied what coalition-building research calls "Trojan Horse" framing — new ideas carried inside accepted structures. The framing was tested in stakeholder conversations, including a department chair meeting where it was presented alongside the Follett bookstore vendor's own OER presentation. The institutional framing resonated where the innovation framing had not.</p>
         </section>
         <section className="section">
           <div className="pillars-row">

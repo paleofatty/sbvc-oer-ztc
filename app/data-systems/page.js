@@ -51,15 +51,15 @@ export default function DataSystems() {
         </section>
 
         <section className="section">
-          <h2>The Syllabus Access Barrier</h2>
-          <p>One potential data source — faculty syllabi, which list required materials — is largely inaccessible due to union considerations. Reviewing syllabi could be interpreted as faculty evaluation, which is contractually restricted. Division deans collect syllabi for accreditation purposes, but access for OER tracking purposes requires navigating labor relations carefully.</p>
+          <h2>The Syllabus Access Challenge</h2>
+          <p>Faculty syllabi — which list required materials — represent a potential data source for identifying OER usage. However, accessing syllabi for tracking purposes involves navigating established processes around faculty evaluation and contractual considerations. Division deans collect syllabi for accreditation purposes, but repurposing that access for OER tracking requires a collaborative approach that respects existing governance structures. The team identified this as an area where cross-functional coordination between instruction, library services, and faculty leadership could develop a workable protocol.</p>
         </section>
 
         <section className="section">
           <h2>What the Team Built</h2>
           <p>Given these constraints, the team developed a multi-track approach:</p>
           <ul>
-            <li><strong>CourseDog integration</strong> — embed ZTC flagging into the scheduling workflow chairs already use</li>
+            <li><strong>CourseDog integration</strong> — embed ZTC flagging into the scheduling workflow department chairs already use</li>
             <li><strong>Microsoft 365 survey</strong> — direct faculty self-reporting as a bridge mechanism</li>
             <li><strong>Informer/EIS pulls</strong> — institutional research extracts for baseline and trend data</li>
             <li><strong>Curriculum review integration</strong> — library staff suggesting OER during every course review and new course submission</li>

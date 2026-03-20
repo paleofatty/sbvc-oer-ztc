@@ -4,20 +4,18 @@ export default function Home() {
   return (
     <>
       <div className="page-hero">
-        <div className="page-container" style={{display: 'flex', alignItems: 'center', gap: '40px', flexWrap: 'wrap'}}>
-          <img src="/centennial-logo.png" alt="SBVC Centennial 1926-2026" style={{width: '160px', height: '160px', flexShrink: 0}} />
-          <div>
-            <div className="badge">Centennial Celebration &middot; LFM Academy II &middot; 2025–2026</div>
-            <h1>Zero Textbook Cost &amp; Open Educational Resources Initiative</h1>
-            <p className="subtitle">
-              A Century of Student Access &amp; Equity — removing financial barriers to instructional materials at San Bernardino Valley College.
-            </p>
-          </div>
+        <div className="page-container">
+          <div className="badge">LFM Academy II &middot; 2025–2026 &middot; Centennial Celebration</div>
+          <h1>Zero Textbook Cost &amp; Open Educational Resources Initiative</h1>
+          <p className="subtitle">
+            Removing financial barriers to instructional materials at San Bernardino Valley College — a systems change project documented through the Leading from the Middle Academy.
+          </p>
         </div>
       </div>
       <div className="page-container">
         <section className="section">
           <h2>The Challenge</h2>
+          <h3>SBVC Students at a Glance</h3>
           <p>Textbook costs remain one of the most significant and immediate financial barriers students face. At SBVC — celebrating its centennial in 2026 — 82% of students come from underrepresented groups and nearly half are first-generation. The burden falls disproportionately on those who can least afford it.</p>
           <p>California's Title 5, Section 54221 now requires community college governing boards to adopt policies ensuring burden-free access to instructional materials. This regulation transforms zero-cost materials from optional innovation into required policy. Students who use ZTC/OER materials have shown 3–5 percentage point higher success rates in courses.</p>
           <div className="stat-row">
@@ -31,7 +29,7 @@ export default function Home() {
         <section className="section">
           <h2>The Initiative</h2>
           <p>Supported by over $200,000 in state funding, SBVC's centennial ZTC/OER initiative aims to build institutional infrastructure for sustainable adoption — data systems, faculty support, degree pathway mapping, and compliance frameworks. The Leading from the Middle Academy provides leadership development, coaching, and a structured change management framework.</p>
-          <p>The project operates through a dual structure: the state ZTC/OER grant provides resources and accountability targets, while LFM provides something equally valuable — an accountability cadence through convenings, structured frameworks for navigating institutional resistance, and what amounts to political cover for middle leaders to act without formal authority on initiatives that require cross-institutional coordination.</p>
+          <p>The project operates through a dual structure: the state ZTC/OER grant provides resources and accountability targets, while LFM provides something equally valuable — structured deadlines and check-ins through convenings, frameworks for navigating institutional complexity, and the institutional legitimacy that comes from participating in a statewide RP Group academy — enabling middle leaders to advance cross-institutional coordination that would otherwise lack formal sponsorship.</p>
           <div className="callout">
             <p><strong>Project Goals:</strong> 100 faculty participants, 100 ZTC/OER course adoptions, and one complete ZTC degree pathway (Social Behavioral Sciences Liberal Arts, AA-T — the college's second most popular degree) — supported by institutional systems that sustain the work beyond any single grant cycle.</p>
           </div>
@@ -41,6 +39,21 @@ export default function Home() {
           <h2>The Core Insight</h2>
           <div className="callout gold">
             <p>This is not a resource problem. It is a <strong>systems + governance + adoption problem</strong>. Success depends on aligning three things: credible data (we can't measure what we can't track), clear organizational ownership (the OER "box" exists on the org chart but is undefined), and faculty behavior change (adoption is a human problem, not a technical one). Without all three, funding alone will not translate into outcomes.</p>
+          </div>
+        </section>
+
+        <section className="section">
+          <h2>The Team</h2>
+          <p>This work is carried out by the SBVC LFM Task Force — a cross-functional team bringing together instructional leadership, institutional research, library services, and faculty expertise.</p>
+          <div className="findings-grid">
+            <div className="finding-card">
+              <h4>Co-Leads</h4>
+              <p>Norma Durian and Davena Burns-Peters provide executive sponsorship and strategic direction, connecting the task force to institutional leadership and ensuring alignment with college-wide priorities.</p>
+            </div>
+            <div className="finding-card">
+              <h4>Task Force Members</h4>
+              <p>Wei-Chung Wang (Department Chair &amp; Economics Professor, OER Liaison), Christie Gabriel (Planning, Research &amp; Institutional Effectiveness), Celia Huston (Library), and Timothy Hosford (Library Technical Services).</p>
+            </div>
           </div>
         </section>
 
