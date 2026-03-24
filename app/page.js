@@ -48,9 +48,9 @@ export default function Home() {
           <p>This work is carried out by the SBVC LFM Task Force — a cross-functional team bringing together instructional leadership, institutional research, library services, and faculty expertise.</p>
           <div className="team-grid">
             <div className="team-card">
-              <div className="team-role">Co-Lead</div>
+              <div className="team-role">Interim Co-Lead, OER/ZTC</div>
               <h4>Norma Durian</h4>
-              <p>Executive sponsorship and strategic direction</p>
+              <p>Librarian &amp; Assistant Professor, SBVC Library</p>
             </div>
             <div className="team-card">
               <div className="team-role">Co-Lead</div>
