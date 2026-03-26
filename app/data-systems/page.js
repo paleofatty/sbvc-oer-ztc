@@ -23,7 +23,7 @@ export default function DataSystems() {
             </div>
             <div className="finding-card">
               <h4>Informer (Reporting)</h4>
-              <p>Data warehouse that stores section-level data. Used for institutional research and reporting. Can pull ZTC data — but only what was entered in Colleague. Low-cost data is not available through this pipeline at all due to Book Saver program interactions.</p>
+              <p>Reporting and data analytics tool that contains section-level data. Used for institutional research and reporting. Can pull ZTC data — but only what was entered in Colleague. Low-cost data is not available through this pipeline at all due to Book Saver program interactions.</p>
             </div>
             <div className="finding-card">
               <h4>Follett (Bookstore)</h4>
